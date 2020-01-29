@@ -1,6 +1,5 @@
-$(".stream-nav").on("click", function(){
-        var allStreamsCardSelector = ".card";
-        var thisStreamCardSelector = "." + this.id + "-card";
-        $(allStreamsCardSelector).removeClass("card-highlight");
-        $(thisStreamCardSelector).addClass("card-highlight");
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).children("a").css("background-color", "yellow");
+    });
 });
